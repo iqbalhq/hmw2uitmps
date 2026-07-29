@@ -1,5 +1,3 @@
-# hmw2uitmps
-hari mesra warga 2.0 uitm perlis
 <!DOCTYPE html>
 <html lang="ms" class="scroll-smooth">
 <head>
