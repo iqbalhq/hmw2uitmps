@@ -80,7 +80,7 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-brand-purple bg-opacity-95 backdrop-blur-md absolute w-full shadow-xl">
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-purple bg-opacity-95 backdrop-blur-md absolute w-full shadow-xl top-20 left-0">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
                 <a href="#utama" class="block px-3 py-3 text-white font-medium hover:bg-brand-dark rounded-md">Utama</a>
                 <a href="#objektif" class="block px-3 py-3 text-white font-medium hover:bg-brand-dark rounded-md">Objektif</a>
@@ -312,7 +312,7 @@
             <!-- Jadual Sukan Responsive -->
             <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                 <div class="overflow-x-auto">
-                    <table class="w-full text-left border-collapse">
+                    <table class="w-full text-left border-collapse min-w-[800px]">
                         <thead>
                             <tr class="bg-brand-purple text-white text-sm uppercase tracking-wider">
                                 <th class="p-4 font-semibold text-center border-b border-brand-dark/20 w-16">Bil</th>
