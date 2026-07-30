@@ -252,41 +252,217 @@
                 <!-- Sukaneka List -->
                 <div>
                     <h3 class="text-2xl font-bold text-brand-gold mb-6 border-b border-brand-gold/30 pb-2">7 Acara Sukaneka Final</h3>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-orange flex items-center gap-4 hover:-translate-y-1 transition-transform">
-                            <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange"><i class="fas fa-bowling-ball fa-fw text-xl"></i></div>
-                            <span class="font-bold">1. Boling Kelapa</span>
-                        </div>
-                        <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-purple flex items-center gap-4 hover:-translate-y-1 transition-transform">
-                            <div class="bg-brand-purple/10 p-3 rounded-lg text-brand-purple"><i class="fas fa-hands-holding-circle fa-fw text-xl"></i></div>
-                            <div>
-                                <span class="font-bold block">2. Sambutlah Kasih</span>
-                                <span class="text-xs text-gray-500">(Belon + Kain Batik)</span>
+                    <div class="grid grid-cols-1 gap-4">
+                        
+                        <!-- Acara 1: Boling Kelapa -->
+                        <details class="bg-white text-brand-dark rounded-xl shadow-lg border-l-4 border-brand-orange group transition-all duration-300">
+                            <summary class="p-4 font-bold cursor-pointer flex items-center gap-4 list-none [&::-webkit-details-marker]:hidden hover:bg-gray-50 rounded-xl">
+                                <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange shrink-0"><i class="fas fa-bowling-ball fa-fw text-xl"></i></div>
+                                <span>1. Boling Kelapa</span>
+                                <i class="fas fa-chevron-down ml-auto transition-transform group-open:rotate-180 text-gray-400"></i>
+                            </summary>
+                            <div class="px-4 pb-4 pt-3 mt-1 border-t border-gray-100 text-sm text-gray-600 space-y-3">
+                                <div><strong class="text-brand-purple block mb-1">Cara Bermain:</strong>
+                                    <ul class="list-decimal pl-4 space-y-1">
+                                        <li>6 pemain (3 Lelaki, 3 Wanita). Pemain berdiri di garisan permulaan yang terletak beberapa meter dari kedudukan pin.</li>
+                                        <li>Pemain akan menggelongsor atau meleretkan kelapa di atas permukaan tanah ke arah susunan pin secara bergilir-gilir. Setiap pemain hanya diberikan 1 kali balingan sahaja.</li>
+                                        <li>Setiap pin yang dijatuhkan dikira sebagai 1 mata. (Contoh kiraan: Jika 6 pemain pasukan A menjatuhkan 3, 5, 2, 4, 6, & 3 pin, jumlah mata pasukan A = 23 mata).</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peraturan:</strong>
+                                    <ul class="list-disc pl-4 space-y-1">
+                                        <li>Kaki pemain tidak boleh melepasi garisan permulaan semasa membuat balingan. Jika terlepas, balingan terbatal dan tidak dikira.</li>
+                                        <li>Kelapa mestilah dileretkan di atas tanah. Balingan secara lambungan udara yang tinggi adalah tidak sah.</li>
+                                        <li>Jika kelapa pecah atau rosak sebelum terkena pin, balingan semula (ulangan) akan diberikan.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Cara Menentukan Pemenang:</strong>
+                                    <p>Mata Tertinggi Terkumpul: Pasukan yang mengumpul mata paling banyak dikira pemenang. <br>Penentu Seri (Tie-Breaker): Wakil akan dipilih membuat 1 lagi balingan tambahan.</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peralatan:</strong>
+                                    <p>Kelapa (5 biji) + 3 biji extra, Botol air Mineral 500 ml (50 botol) + 10 botol extra.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-gold flex items-center gap-4 hover:-translate-y-1 transition-transform">
-                            <div class="bg-brand-gold/20 p-3 rounded-lg text-brand-orange"><i class="fas fa-candy-cane fa-fw text-xl"></i></div>
-                            <span class="font-bold">3. Gula Dalam Tepung</span>
-                        </div>
-                        <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-orange flex items-center gap-4 hover:-translate-y-1 transition-transform">
-                            <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange"><i class="fas fa-comment-slash fa-fw text-xl"></i></div>
-                            <div>
-                                <span class="font-bold block">4. Guess It Right</span>
-                                <span class="text-xs text-gray-500">(Peneka & Klu Bisu)</span>
+                        </details>
+
+                        <!-- Acara 2: Lari dalam Guni -->
+                        <details class="bg-white text-brand-dark rounded-xl shadow-lg border-l-4 border-brand-purple group transition-all duration-300">
+                            <summary class="p-4 font-bold cursor-pointer flex items-center gap-4 list-none [&::-webkit-details-marker]:hidden hover:bg-gray-50 rounded-xl">
+                                <div class="bg-brand-purple/10 p-3 rounded-lg text-brand-purple shrink-0"><i class="fas fa-person-running fa-fw text-xl"></i></div>
+                                <span>2. Lari dalam Guni</span>
+                                <i class="fas fa-chevron-down ml-auto transition-transform group-open:rotate-180 text-gray-400"></i>
+                            </summary>
+                            <div class="px-4 pb-4 pt-3 mt-1 border-t border-gray-100 text-sm text-gray-600 space-y-3">
+                                <div><strong class="text-brand-purple block mb-1">Cara Bermain:</strong>
+                                    <ul class="list-decimal pl-4 space-y-1">
+                                        <li>8 pemain (4 Lelaki, 4 Wanita). Bahagikan kepada 2 kumpulan kecil.</li>
+                                        <li>Pemain 1,3,5,7 berdiri di garisan A (Permulaan). Pemain 2,4,6,8 berdiri di garisan B (Pusingan).</li>
+                                        <li>Pemain 1 masuk ke dalam guni di Garisan A. Apabila wisel ditiup, pemain 1 melompat menuju ke Garisan B.</li>
+                                        <li>Sampai di Garisan B, pemain 1 keluar dari guni. Pemain 2 segera masuk ke dalam guni tersebut dan melompat semula ke Garisan A.</li>
+                                        <li>Proses ini diteruskan sehingga pemain terakhir melintasi garisan penamat.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peraturan:</strong>
+                                    <p>Pertukaran guni antara peserta hanya boleh dilakukan selepas pelari sebelum itu melintasi garisan sepenuhnya.</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Cara Menentukan Pemenang:</strong>
+                                    <p>Pasukan yang mencatatkan masa keseluruhan paling pantas akan dikira sebagai pemenang.</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peralatan:</strong>
+                                    <p>Guni (5 unit) + 5 unit extra, Stopwatch.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-purple flex items-center gap-4 hover:-translate-y-1 transition-transform">
-                            <div class="bg-brand-purple/10 p-3 rounded-lg text-brand-purple"><i class="fas fa-coffee fa-fw text-xl"></i></div>
-                            <span class="font-bold">5. Teka Warna Cup</span>
-                        </div>
-                        <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-gold flex items-center gap-4 hover:-translate-y-1 transition-transform">
-                            <div class="bg-brand-gold/20 p-3 rounded-lg text-brand-orange"><i class="fas fa-puzzle-piece fa-fw text-xl"></i></div>
-                            <span class="font-bold">6. Puzzle</span>
-                        </div>
-                        <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-orange flex items-center gap-4 sm:col-span-2 hover:-translate-y-1 transition-transform">
-                            <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange"><i class="fas fa-campground fa-fw text-xl"></i></div>
-                            <span class="font-bold">7. Hiasan Khemah</span>
-                        </div>
+                        </details>
+
+                        <!-- Acara 3: Sambutlah Kasih -->
+                        <details class="bg-white text-brand-dark rounded-xl shadow-lg border-l-4 border-brand-gold group transition-all duration-300">
+                            <summary class="p-4 font-bold cursor-pointer flex items-center gap-4 list-none [&::-webkit-details-marker]:hidden hover:bg-gray-50 rounded-xl">
+                                <div class="bg-brand-gold/20 p-3 rounded-lg text-brand-orange shrink-0"><i class="fas fa-hands-holding-circle fa-fw text-xl"></i></div>
+                                <span>3. Sambutlah Kasih</span>
+                                <i class="fas fa-chevron-down ml-auto transition-transform group-open:rotate-180 text-gray-400"></i>
+                            </summary>
+                            <div class="px-4 pb-4 pt-3 mt-1 border-t border-gray-100 text-sm text-gray-600 space-y-3">
+                                <div><strong class="text-brand-purple block mb-1">Cara Bermain:</strong>
+                                    <ul class="list-decimal pl-4 space-y-1">
+                                        <li>10 pemain (campuran) - dibahagikan kepada 5 pasangan. Setiap pasangan memegang keempat-empat bucu kain batik.</li>
+                                        <li>Pasangan pertama memulakan permainan dengan belon air diletakkan di atas kain batik, lalu melambungkannya kepada pasangan kedua.</li>
+                                        <li>Proses sambut dan lambung diteruskan sehingga belon sampai kepada pasangan kelima.</li>
+                                        <li>Pasangan kelima menyambut belon menggunakan kain batik dan kemudian meletakkan belon ke dalam baldi.</li>
+                                        <li>Jika belon jatuh dan tidak pecah, pasangan perlu mengambil semula belon dan meneruskan permainan.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peraturan:</strong>
+                                    <ul class="list-disc pl-4 space-y-1">
+                                        <li>Belon hanya boleh dilambung dan disambut menggunakan kain batik. Dilarang menyentuh belon guna tangan.</li>
+                                        <li>Pasangan hendaklah berada di tempat yang ditetapkan dan tidak boleh bergerak ke pasangan lain.</li>
+                                        <li>Belon yang jatuh dan pecah tidak akan diganti.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Cara Menentukan Pemenang:</strong>
+                                    <p>Kumpulan yang berjaya memasukkan bilangan belon terbanyak ke dalam baldi dikira pemenang. Jika seri, penentuan mengikut masa terpantas.</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peralatan:</strong>
+                                    <p>5 helai kain pelikat/batik (setiap pasukan), 200 biji belon, 10 biji baldi.</p>
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- Acara 4: Cup Challenge -->
+                        <details class="bg-white text-brand-dark rounded-xl shadow-lg border-l-4 border-brand-orange group transition-all duration-300">
+                            <summary class="p-4 font-bold cursor-pointer flex items-center gap-4 list-none [&::-webkit-details-marker]:hidden hover:bg-gray-50 rounded-xl">
+                                <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange shrink-0"><i class="fas fa-cubes fa-fw text-xl"></i></div>
+                                <span>4. Cup Challenge</span>
+                                <i class="fas fa-chevron-down ml-auto transition-transform group-open:rotate-180 text-gray-400"></i>
+                            </summary>
+                            <div class="px-4 pb-4 pt-3 mt-1 border-t border-gray-100 text-sm text-gray-600 space-y-3">
+                                <div><strong class="text-brand-purple block mb-1">Cara Bermain:</strong>
+                                    <ul class="list-decimal pl-4 space-y-1">
+                                        <li>5 pemain (campuran). Pasukan akan diberikan cawan plastik dan satu contoh susunan corak.</li>
+                                        <li>Peserta perlu menyusun cawan mengikut corak yang diberikan.</li>
+                                        <li>Ahli pasukan menyusun secara bergilir-gilir. Setelah seorang selesai membuat pergerakan, giliran diberikan kepada peserta seterusnya.</li>
+                                        <li>Masa permainan adalah 5 minit.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peraturan:</strong>
+                                    <ul class="list-disc pl-4 space-y-1">
+                                        <li>Setiap peserta hanya boleh membuat satu giliran pada satu masa.</li>
+                                        <li>Peserta tidak dibenarkan membantu rakan yang sedang mengambil giliran.</li>
+                                        <li>Pasukan perlu mematuhi turutan giliran yang ditetapkan.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Cara Menentukan Pemenang:</strong>
+                                    <p>Berdasarkan masa terpantas menyiapkan susunan cawan dengan betul. Sekiranya seri, pemenang ditentukan melalui cabaran tambahan (tie-breaker).</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peralatan:</strong>
+                                    <p>60 biji cup yang telah diwarnakan, 5 biji meja, 5 buah kotak, Spray warna.</p>
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- Acara 5: Guess it Right -->
+                        <details class="bg-white text-brand-dark rounded-xl shadow-lg border-l-4 border-brand-purple group transition-all duration-300">
+                            <summary class="p-4 font-bold cursor-pointer flex items-center gap-4 list-none [&::-webkit-details-marker]:hidden hover:bg-gray-50 rounded-xl">
+                                <div class="bg-brand-purple/10 p-3 rounded-lg text-brand-purple shrink-0"><i class="fas fa-comment-dots fa-fw text-xl"></i></div>
+                                <span>5. Guess it Right</span>
+                                <i class="fas fa-chevron-down ml-auto transition-transform group-open:rotate-180 text-gray-400"></i>
+                            </summary>
+                            <div class="px-4 pb-4 pt-3 mt-1 border-t border-gray-100 text-sm text-gray-600 space-y-3">
+                                <div><strong class="text-brand-purple block mb-1">Cara Bermain:</strong>
+                                    <ul class="list-decimal pl-4 space-y-1">
+                                        <li>5 orang peserta (mix gender). 1 peneka, 4 pemberi klu.</li>
+                                        <li>Pemberi klu memberikan petunjuk secara lisan untuk peneka meneka 30 perkataan.</li>
+                                        <li>Jika peneka berjaya, terus ke perkataan seterusnya. Masa yang diberikan ialah 4 minit.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peraturan:</strong>
+                                    <ul class="list-disc pl-4 space-y-1">
+                                        <li>Pemberi klu TIDAK dibenarkan: Menyebut perkataan sebenar, mengeja, guna bahasa isyarat/melukis, terjemah ke bahasa lain.</li>
+                                        <li>Petunjuk lisan sahaja. Boleh 'Skip' perkataan, namun tidak boleh diulang semula.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Cara Menentukan Pemenang:</strong>
+                                    <p>Setiap jawapan betul bernilai 1 markah. Pasukan dengan markah tertinggi menang. Jika seri, dinilai pada masa terpantas.</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peralatan:</strong>
+                                    <p>30 perkataan sama setiap pasukan + 5 perkataan tambahan, 5 buah kerusi, Stopwatch.</p>
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- Acara 6: Cari Gula dalam Tepung -->
+                        <details class="bg-white text-brand-dark rounded-xl shadow-lg border-l-4 border-brand-gold group transition-all duration-300">
+                            <summary class="p-4 font-bold cursor-pointer flex items-center gap-4 list-none [&::-webkit-details-marker]:hidden hover:bg-gray-50 rounded-xl">
+                                <div class="bg-brand-gold/20 p-3 rounded-lg text-brand-orange shrink-0"><i class="fas fa-candy-cane fa-fw text-xl"></i></div>
+                                <span>6. Cari Gula dalam Tepung</span>
+                                <i class="fas fa-chevron-down ml-auto transition-transform group-open:rotate-180 text-gray-400"></i>
+                            </summary>
+                            <div class="px-4 pb-4 pt-3 mt-1 border-t border-gray-100 text-sm text-gray-600 space-y-3">
+                                <div><strong class="text-brand-purple block mb-1">Cara Bermain:</strong>
+                                    <ul class="list-decimal pl-4 space-y-1">
+                                        <li>5 orang peserta.</li>
+                                        <li>Bila wisel dibunyikan, peserta perlu mencari gula-gula di dalam bekas berisi tepung menggunakan mulut sahaja.</li>
+                                        <li>Gula-gula dibawa keluar dengan mulut dan dimasukkan ke dalam bekas.</li>
+                                        <li>Peserta seterusnya mengambil giliran sehingga masa 4 minit tamat.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peraturan:</strong>
+                                    <ul class="list-disc pl-4 space-y-1">
+                                        <li>Peserta tidak dibenarkan menggunakan tangan menguis tepung sepanjang permainan.</li>
+                                        <li>Tidak dibenarkan meniup tepung dengan sengaja. Mulut sahaja digunakan.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Cara Menentukan Pemenang:</strong>
+                                    <p>Pasukan yang berjaya mengumpul jumlah gula-gula terbanyak dalam tempoh masa yang ditetapkan diisytiharkan pemenang.</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peralatan:</strong>
+                                    <p>Pinggan kertas, Tepung, Gula-gula.</p>
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- Acara 7: Susun Puzzle -->
+                        <details class="bg-white text-brand-dark rounded-xl shadow-lg border-l-4 border-brand-orange group transition-all duration-300">
+                            <summary class="p-4 font-bold cursor-pointer flex items-center gap-4 list-none [&::-webkit-details-marker]:hidden hover:bg-gray-50 rounded-xl">
+                                <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange shrink-0"><i class="fas fa-puzzle-piece fa-fw text-xl"></i></div>
+                                <span>7. Susun Puzzle</span>
+                                <i class="fas fa-chevron-down ml-auto transition-transform group-open:rotate-180 text-gray-400"></i>
+                            </summary>
+                            <div class="px-4 pb-4 pt-3 mt-1 border-t border-gray-100 text-sm text-gray-600 space-y-3">
+                                <div><strong class="text-brand-purple block mb-1">Cara Bermain:</strong>
+                                    <ul class="list-decimal pl-4 space-y-1">
+                                        <li>Setiap pasukan menerima satu set puzzle (1000 keping).</li>
+                                        <li>Semua ahli pasukan dibenarkan menyusun puzzle secara serentak pada masa yang sama.</li>
+                                    </ul>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Cara Menentukan Pemenang:</strong>
+                                    <p>Pasukan yang berjaya melengkapkan susunan puzzle dalam masa terpantas dikira sebagai pemenang.</p>
+                                </div>
+                                <div><strong class="text-brand-purple block mb-1">Peralatan:</strong>
+                                    <p>5 kotak puzzle (1000 pieces).</p>
+                                </div>
+                            </div>
+                        </details>
+                        
                     </div>
                 </div>
             </div>
