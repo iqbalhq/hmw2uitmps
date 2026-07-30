@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ms" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -228,6 +228,24 @@
                                 <p class="text-gray-300 text-sm"><i class="fas fa-map-marker-alt text-brand-orange mr-2"></i> Stadium Hoki, UiTM Perlis</p>
                             </div>
                         </div>
+
+                        <div class="relative">
+                            <div class="absolute -left-[41px] bg-brand-dark border-2 border-brand-gold w-5 h-5 rounded-full mt-1"></div>
+                            <div class="bg-white/10 backdrop-blur-sm p-5 rounded-xl border border-white/10 hover:bg-white/20 transition-colors">
+                                <span class="text-brand-gold font-bold block mb-1">12.00 Tengah Hari</span>
+                                <h4 class="text-xl font-semibold mb-2">Penyampaian Hadiah</h4>
+                                <p class="text-gray-300 text-sm"><i class="fas fa-trophy text-brand-gold mr-2"></i> Stadium Hoki, UiTM Perlis</p>
+                            </div>
+                        </div>
+
+                        <div class="relative">
+                            <div class="absolute -left-[41px] bg-brand-dark border-2 border-brand-gold w-5 h-5 rounded-full mt-1"></div>
+                            <div class="bg-white/10 backdrop-blur-sm p-5 rounded-xl border border-white/10 hover:bg-white/20 transition-colors">
+                                <span class="text-brand-gold font-bold block mb-1">1.00 Petang</span>
+                                <h4 class="text-xl font-semibold mb-2">Program Selesai</h4>
+                                <p class="text-gray-300 text-sm"><i class="fas fa-flag-checkered text-white mr-2"></i> Bersurai</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -237,7 +255,7 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-orange flex items-center gap-4 hover:-translate-y-1 transition-transform">
                             <div class="bg-brand-orange/10 p-3 rounded-lg text-brand-orange"><i class="fas fa-bowling-ball fa-fw text-xl"></i></div>
-                            <span class="font-bold">1. Boling Kepala</span>
+                            <span class="font-bold">1. Boling Kelapa</span>
                         </div>
                         <div class="bg-white text-brand-dark p-4 rounded-xl shadow-lg border-l-4 border-brand-purple flex items-center gap-4 hover:-translate-y-1 transition-transform">
                             <div class="bg-brand-purple/10 p-3 rounded-lg text-brand-purple"><i class="fas fa-hands-holding-circle fa-fw text-xl"></i></div>
