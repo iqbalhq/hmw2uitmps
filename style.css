@@ -537,10 +537,20 @@
 
     <section id="sukan-september" class="py-20 bg-brand-light">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-14">
+            <div class="text-center mb-10">
                 <span class="text-brand-orange font-bold uppercase tracking-wider text-sm">Kejohanan Sukan September 2026</span>
                 <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-purple mt-1 mb-3">Permainan</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Klik pada mana-mana permainan di bawah untuk melihat syarat pendaftaran, jumlah pemain mengikut kategori, dan format pertandingan.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-6">Klik pada mana-mana permainan di bawah untuk melihat tarikh, venue, penyelaras, serta syarat pendaftaran dan format pertandingan.</p>
+                
+                <!-- Pautan Peraturan Permainan & Fast-Fact -->
+                <div class="mb-4">
+                    <a href="https://drive.google.com/drive/folders/12vJGkw-gTC5r-pFy1wbdxbR68QWBM2h4" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-brand-purple hover:bg-brand-dark text-white font-bold px-6 py-3 rounded-xl shadow-md transition duration-300 border border-brand-gold/40 hover:scale-105">
+                        <i class="fas fa-file-pdf text-brand-gold text-lg"></i>
+                        <span>Muat Turun Peraturan Permainan & Fast-Fact</span>
+                        <i class="fas fa-external-link-alt text-xs ml-1"></i>
+                    </a>
+                </div>
+
                 <div class="w-24 h-1.5 bg-brand-gold mx-auto rounded-full mt-4"></div>
             </div>
 
@@ -557,6 +567,13 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content hidden p-6 bg-brand-light text-gray-700 space-y-4 border-t border-brand-gold/20">
+                        <!-- Info Kejohanan & Penyelaras -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-brand-purple/5 p-4 rounded-xl border border-brand-purple/10 text-sm">
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-calendar-alt text-brand-orange mr-1"></i> Tarikh & Masa:</strong> <span class="font-semibold text-gray-800">17 Sept 2026 (09:00 - 17:00)</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-map-marker-alt text-brand-orange mr-1"></i> Venue:</strong> <span class="font-semibold text-gray-800">Dewan Kompleks Sukan</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-user-shield text-brand-orange mr-1"></i> Penyelaras:</strong> <span class="font-semibold text-gray-800">En Noor Azahar Bin Abd Aziz</span></div>
+                        </div>
+
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white p-4 rounded-xl border border-gray-100">
                             <div><strong class="text-brand-purple block text-xs uppercase">Lelaki:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
                             <div><strong class="text-brand-purple block text-xs uppercase">L. Veteran:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
@@ -579,6 +596,13 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content hidden p-6 bg-brand-light text-gray-700 space-y-4 border-t border-brand-gold/20">
+                        <!-- Info Kejohanan & Penyelaras -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-brand-purple/5 p-4 rounded-xl border border-brand-purple/10 text-sm">
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-calendar-alt text-brand-orange mr-1"></i> Tarikh & Masa:</strong> <span class="font-semibold text-gray-800">24 & 25 Sept 2026 (17:00 - 19:00)</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-map-marker-alt text-brand-orange mr-1"></i> Venue:</strong> <span class="font-semibold text-gray-800">Gelanggang Beringin</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-user-shield text-brand-orange mr-1"></i> Penyelaras:</strong> <span class="font-semibold text-gray-800">En Ahmad Faizan Affandi</span></div>
+                        </div>
+
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-4 rounded-xl border border-gray-100">
                             <div><strong class="text-brand-purple block text-xs uppercase">Lelaki (Termasuk Veteran):</strong> <span class="text-lg font-bold text-gray-800">8 Orang</span></div>
                             <div><strong class="text-brand-purple block text-xs uppercase">Wanita:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
@@ -600,6 +624,13 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content hidden p-6 bg-brand-light text-gray-700 space-y-4 border-t border-brand-gold/20">
+                        <!-- Info Kejohanan & Penyelaras -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-brand-purple/5 p-4 rounded-xl border border-brand-purple/10 text-sm">
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-calendar-alt text-brand-orange mr-1"></i> Tarikh & Masa:</strong> <span class="font-semibold text-gray-800">22 Sept 2026 (08:00 - 12:00)</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-map-marker-alt text-brand-orange mr-1"></i> Venue:</strong> <span class="font-semibold text-gray-800">Laman Woodball UiTM</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-user-shield text-brand-orange mr-1"></i> Penyelaras:</strong> <span class="font-semibold text-gray-800">Dr Sharizal Bin Hassan</span></div>
+                        </div>
+
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white p-4 rounded-xl border border-gray-100">
                             <div><strong class="text-brand-purple block text-xs uppercase">Lelaki:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
                             <div><strong class="text-brand-purple block text-xs uppercase">L. Veteran:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
@@ -622,6 +653,13 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content hidden p-6 bg-brand-light text-gray-700 space-y-4 border-t border-brand-gold/20">
+                        <!-- Info Kejohanan & Penyelaras -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-brand-purple/5 p-4 rounded-xl border border-brand-purple/10 text-sm">
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-calendar-alt text-brand-orange mr-1"></i> Tarikh & Masa:</strong> <span class="font-semibold text-gray-800">30 Sept 2026 (17:00 - 19:00)</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-map-marker-alt text-brand-orange mr-1"></i> Venue:</strong> <span class="font-semibold text-gray-800">Dewan Kompleks Sukan</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-user-shield text-brand-orange mr-1"></i> Penyelaras:</strong> <span class="font-semibold text-gray-800">En Ahmad Kharul Anuar Bin Abd Aziz</span></div>
+                        </div>
+
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-4 rounded-xl border border-gray-100">
                             <div><strong class="text-brand-purple block text-xs uppercase">Lelaki Veteran (Atas 40 Tahun):</strong> <span class="text-lg font-bold text-gray-800">6 Orang</span></div>
                             <div><strong class="text-brand-purple block text-xs uppercase">Wanita:</strong> <span class="text-lg font-bold text-gray-400">Tiada Penyertaan</span></div>
@@ -643,6 +681,13 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content hidden p-6 bg-brand-light text-gray-700 space-y-4 border-t border-brand-gold/20">
+                        <!-- Info Kejohanan & Penyelaras -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-brand-purple/5 p-4 rounded-xl border border-brand-purple/10 text-sm">
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-calendar-alt text-brand-orange mr-1"></i> Tarikh & Masa:</strong> <span class="font-semibold text-gray-800">21 Sept 2026 (09:00 - 17:00)</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-map-marker-alt text-brand-orange mr-1"></i> Venue:</strong> <span class="font-semibold text-gray-800">Dewan Seri Semarak</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-user-shield text-brand-orange mr-1"></i> Penyelaras:</strong> <span class="font-semibold text-gray-800">En Noor Iman Bin Omar</span></div>
+                        </div>
+
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white p-4 rounded-xl border border-gray-100">
                             <div><strong class="text-brand-purple block text-xs uppercase">Lelaki:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
                             <div><strong class="text-brand-purple block text-xs uppercase">L. Veteran:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
@@ -665,6 +710,13 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content hidden p-6 bg-brand-light text-gray-700 space-y-4 border-t border-brand-gold/20">
+                        <!-- Info Kejohanan & Penyelaras -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-brand-purple/5 p-4 rounded-xl border border-brand-purple/10 text-sm">
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-calendar-alt text-brand-orange mr-1"></i> Tarikh & Masa:</strong> <span class="font-semibold text-gray-800">21 Sept 2026 (09:00 - 17:00)</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-map-marker-alt text-brand-orange mr-1"></i> Venue:</strong> <span class="font-semibold text-gray-800">Dewan Seri Semarak</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-user-shield text-brand-orange mr-1"></i> Penyelaras:</strong> <span class="font-semibold text-gray-800">En Muhammad Fadhli Bin Md Nasir</span></div>
+                        </div>
+
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-white p-4 rounded-xl border border-gray-100">
                             <div><strong class="text-brand-purple block text-xs uppercase">Lelaki:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
                             <div><strong class="text-brand-purple block text-xs uppercase">L. Veteran:</strong> <span class="text-lg font-bold text-gray-800">4 Orang</span></div>
@@ -687,6 +739,13 @@
                         <i class="fas fa-chevron-down transform transition-transform duration-300"></i>
                     </button>
                     <div class="accordion-content hidden p-6 bg-brand-light text-gray-700 space-y-4 border-t border-brand-gold/20">
+                        <!-- Info Kejohanan & Penyelaras -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-brand-purple/5 p-4 rounded-xl border border-brand-purple/10 text-sm">
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-calendar-alt text-brand-orange mr-1"></i> Tarikh & Masa:</strong> <span class="font-semibold text-gray-800">21 Sept 2026 (08:30 - 10:30)</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-map-marker-alt text-brand-orange mr-1"></i> Venue:</strong> <span class="font-semibold text-gray-800">Kangar SuperBowls</span></div>
+                            <div><strong class="text-brand-purple block text-xs uppercase"><i class="fas fa-user-shield text-brand-orange mr-1"></i> Penyelaras:</strong> <span class="font-semibold text-gray-800">En Noor Azahar Bin Abd Aziz</span></div>
+                        </div>
+
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-4 rounded-xl border border-gray-100">
                             <div><strong class="text-brand-purple block text-xs uppercase">Lelaki Veteran:</strong> <span class="text-lg font-bold text-gray-800">2 Orang</span></div>
                             <div><strong class="text-brand-purple block text-xs uppercase">Wanita:</strong> <span class="text-lg font-bold text-gray-800">2 Orang</span></div>
