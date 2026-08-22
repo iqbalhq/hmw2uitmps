@@ -122,6 +122,15 @@
                 "Warga Harmoni, Kampus Bestari"
             </div>
 
+            <!-- Action Link Button for daftar sukan -->
+            <div class="mt-2 mb-6 opacity-0 animate-fade-in delay-300">
+                <a href="https://iqbalhq.github.io/borangpendaftaran.hmw2/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-brand-gold hover:bg-yellow-400 text-brand-dark font-extrabold px-8 py-3.5 rounded-2xl text-base sm:text-lg shadow-2xl transition-all duration-300 transform hover:scale-105 border-2 border-white">
+                    <i class="fas fa-folder-open text-xl"></i>
+                    <span>Pendaftaran Sukan</span>
+                    <i class="fas fa-external-link-alt text-sm"></i>
+                </a>
+            </div>
+
             <!-- Action Link Button for Senarai Peserta -->
             <div class="mt-2 mb-6 opacity-0 animate-fade-in delay-300">
                 <a href="https://drive.google.com/drive/folders/1nqxPhstkESQ9reXEEkLEPyhtpK5unmcL?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-brand-gold hover:bg-yellow-400 text-brand-dark font-extrabold px-8 py-3.5 rounded-2xl text-base sm:text-lg shadow-2xl transition-all duration-300 transform hover:scale-105 border-2 border-white">
